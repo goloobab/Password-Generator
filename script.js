@@ -176,6 +176,8 @@ function getRandom(arr) {
 // Function to generate password with user input
 function generatePassword() {
   var password = '';
+  var passwordOptions = getPasswordOptions();
+  var optionsArray = getOptionsArray(passwordOptions);
 }
 
 // Get references to the #generate element
