@@ -89,7 +89,7 @@ var upperCasedCharacters = [
 ];
 
 // Function to prompt user for password options
-function getPasswordOptions() {
+function getPasswordLength() {
 
  // prompt user for password length
  var passwordLength = prompt(`Enter password length between 10 - 64`)
