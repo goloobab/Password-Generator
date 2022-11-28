@@ -135,6 +135,19 @@ function getPasswordOptions() {
   var shouldUseNumeric = confirm('Do you want to have Numeric Values in the password ?')
   var shouldUseSpecialChars = confirm('Do you want to have Special Characters in the password ?')
   
+  // Checking if the user has selected at least one options
+  while (!shouldUseLowercase && !shouldUseUppercase && !shouldUseNumeric && !shouldUseSpecialChars ) {
+  alert(`Please choose at least One Option`)
+  var shouldUseLowercase = confirm('Do you want to have Lower cases in the password ?')
+  var shouldUseUppercase = confirm('Do you want to have Upper cases in the password ?')
+  var shouldUseNumeric = confirm('Do you want to have Numeric Values in the password ?')
+  var shouldUseSpecialChars = confirm('Do you want to have Special Characters in the password ?')
+  
+  if (shouldUseLowercase || shouldUseUppercase || shouldUseNumeric || shouldUseSpecialChars ){
+    break;
+    }
+  }
+   
   return {
       passwordLength: passwordLength,
       shouldUseLowercase: shouldUseLowercase,
