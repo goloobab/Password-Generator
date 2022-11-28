@@ -88,7 +88,16 @@ var upperCasedCharacters = [
   'Z'
 ];
 
-// Function to prompt user for password options
+
+/*
+When the generate password button is clicked
+  The user is prompted to enter the length of the password 
+    If user provides valid length, its stored in a variable (pp) and proceed
+    If user provides an invalid length, the user is prompted to enter a valid value again
+
+*/
+
+// Function to prompt user for password length
 function getPasswordLength() {
 
  // prompt user for password length
