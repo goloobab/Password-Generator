@@ -178,6 +178,11 @@ function generatePassword() {
   var password = '';
   var passwordOptions = getPasswordOptions();
   var optionsArray = getOptionsArray(passwordOptions);
+
+  for (var i = 0; i < passwordOptions.passwordLength; i++){
+    password += getRandom(optionsArray);
+  } 
+  return password
 }
 
 // Get references to the #generate element
