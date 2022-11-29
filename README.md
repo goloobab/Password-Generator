@@ -37,7 +37,7 @@ Once all prompts are answered, the password should be generated and displayed in
 
 
 ## Screen Shots
-
+![goloobab-github-io-Password-Generator-2022-11-29-14_42_31](https://user-images.githubusercontent.com/26630637/204559533-d4a0a5d4-91a3-4485-bbae-f0b78c3ee60b.png)
 
 ## Links
 Deployed project: https://goloobab.github.io/Password-Generator/
