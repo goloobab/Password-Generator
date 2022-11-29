@@ -26,7 +26,7 @@ Once all prompts are answered, the password should be generated and displayed in
 * Validating users input choices. 
 * Selecting elements from the different array options.
 * Variable naming
-* Determing which loop to use and where.
+* Determining which loop to use and where.
 
 ## Things I learned 
 * How to use the prompts, confirm and alerts
@@ -51,6 +51,6 @@ If you have any questions, please contact me at:
  
   Github Profile: [goloobab](https://github.com/goloobab/)  
 
-  Email: [Billy Golooba](goloobab@gmail.com) 
+  Email: [Billy Golooba](mailto:goloobab@gmail.com) 
 
-  LinkedIn: [ Billy Golooba ](linkedin.com/in/goloobab)
+  LinkedIn: [ Billy Golooba ](https://linkedin.com/in/goloobab)
