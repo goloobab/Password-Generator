@@ -23,16 +23,17 @@ Once all prompts are answered, the password should be generated and displayed in
 
 ## Challenges
 
-* Interpretation of the task requirement as errors in the acceptance criteria we found. 
-* Accesing data in a multidimension array.
-* Spliiting data in the multidimension array
-* Analyzing and creating reports .
+* Validating users input choices. 
+* Selecting elements from the different array options.
+* Variable naming
+* Determing which loop to use and where.
 
 ## Things I learned 
-* Accessing specific data in a multidimension Array
-* Rounding of values to the nearest 100th.
-* Creating new array form a Multidimensin Array
-* Got a better understanding of how to read product documentation.
+* How to use the prompts, confirm and alerts
+* Nesting functions
+* The random functions
+* How to declare and use variables globally and locally.
+* How to apply loops in validation
 
 
 ## Screen Shots
